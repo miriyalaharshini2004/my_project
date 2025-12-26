@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Excellent HubSpot Platform",
+    "description": "HubSpot has transformed our business operations completely. The features are outstanding and the integration capabilities are seamless. Customer support is very responsive and helpful.",
+    "date": "2023-08-15",
+    "reviewer_name": "John Smith",
+    "rating": 5,
+    "helpful_votes": "24",
+    "source": "G2"
+  },
+  {
+    "title": "Good Tool with Room for Improvement - HubSpot",
+    "description": "Solid platform from HubSpot with good core functionality. Some advanced features feel clunky and the reporting could be more robust. Overall satisfied with the value for money.",
+    "date": "2023-07-20",
+    "reviewer_name": "Lisa Rodriguez",
+    "rating": 3.5,
+    "helpful_votes": "12",
+    "source": "G2"
+  }
+]

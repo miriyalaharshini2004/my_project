@@ -1,0 +1,138 @@
+2025-12-26 15:55:42,449 - utils - INFO - ============================================================
+2025-12-26 15:55:42,450 - utils - INFO - Review Scraper Started
+2025-12-26 15:55:42,450 - utils - INFO - ============================================================
+2025-12-26 15:55:42,451 - utils - INFO - Company: Salesforce
+2025-12-26 15:55:42,451 - utils - INFO - Date Range: 2023-01-01 to 2023-12-31
+2025-12-26 15:55:42,452 - utils - INFO - Source: all
+2025-12-26 15:55:42,452 - utils - INFO - ------------------------------------------------------------
+2025-12-26 15:55:42,454 - utils - INFO - Starting review scraping...
+2025-12-26 15:55:42,454 - utils - INFO - Scraping reviews from g2...
+2025-12-26 15:55:42,455 - g2_scraper - INFO - Starting G2 review scraping for Salesforce
+2025-12-26 15:55:42,458 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.g2.com:443
+2025-12-26 15:55:42,646 - urllib3.connectionpool - DEBUG - https://www.g2.com:443 "GET /search?query=Salesforce HTTP/11" 403 None
+2025-12-26 15:55:42,647 - g2_scraper - ERROR - Error searching G2 for company (attempt 1): 403 Client Error: Forbidden for url: https://www.g2.com/search?query=Salesforce
+2025-12-26 15:55:44,724 - urllib3.connectionpool - DEBUG - https://www.g2.com:443 "GET /search?query=Salesforce HTTP/11" 403 None
+2025-12-26 15:55:44,724 - g2_scraper - ERROR - Error searching G2 for company (attempt 2): 403 Client Error: Forbidden for url: https://www.g2.com/search?query=Salesforce
+2025-12-26 15:55:48,807 - urllib3.connectionpool - DEBUG - https://www.g2.com:443 "GET /search?query=Salesforce HTTP/11" 403 None
+2025-12-26 15:55:48,807 - g2_scraper - ERROR - Error searching G2 for company (attempt 3): 403 Client Error: Forbidden for url: https://www.g2.com/search?query=Salesforce
+2025-12-26 15:55:48,808 - g2_scraper - ERROR - Could not find G2 page for company: Salesforce
+2025-12-26 15:55:48,808 - utils - INFO - Collected 0 reviews from g2
+2025-12-26 15:55:48,808 - utils - INFO - Scraping reviews from capterra...
+2025-12-26 15:55:48,809 - capterra_scraper - INFO - Starting Capterra review scraping for Salesforce
+2025-12-26 15:55:48,809 - utils - ERROR - Error scraping from capterra: name 'CAPTERRA_SEARCH_URL' is not defined
+2025-12-26 15:55:48,809 - utils - INFO - Scraping reviews from software-advice...
+2025-12-26 15:55:48,810 - software_advice_scraper - INFO - Starting Software Advice review scraping for Salesforce
+2025-12-26 15:55:48,810 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.softwareadvice.com:443
+2025-12-26 15:55:48,991 - urllib3.connectionpool - DEBUG - https://www.softwareadvice.com:443 "GET /search/?q=Salesforce HTTP/11" 403 None
+2025-12-26 15:55:48,992 - software_advice_scraper - ERROR - Error searching Software Advice for company (attempt 1): 403 Client Error: Forbidden for url: https://www.softwareadvice.com/search/?q=Salesforce
+2025-12-26 15:55:51,025 - urllib3.connectionpool - DEBUG - https://www.softwareadvice.com:443 "GET /search/?q=Salesforce HTTP/11" 403 None
+2025-12-26 15:55:51,026 - software_advice_scraper - ERROR - Error searching Software Advice for company (attempt 2): 403 Client Error: Forbidden for url: https://www.softwareadvice.com/search/?q=Salesforce
+2025-12-26 15:55:55,059 - urllib3.connectionpool - DEBUG - https://www.softwareadvice.com:443 "GET /search/?q=Salesforce HTTP/11" 403 None
+2025-12-26 15:55:55,060 - software_advice_scraper - ERROR - Error searching Software Advice for company (attempt 3): 403 Client Error: Forbidden for url: https://www.softwareadvice.com/search/?q=Salesforce
+2025-12-26 15:55:55,060 - software_advice_scraper - ERROR - Could not find Software Advice page for company: Salesforce
+2025-12-26 15:55:55,061 - utils - INFO - Collected 0 reviews from software-advice
+2025-12-26 15:55:55,061 - utils - WARNING - No reviews found for the specified criteria
+2025-12-26 15:59:16,349 - utils - INFO - ============================================================
+2025-12-26 15:59:16,350 - utils - INFO - Review Scraper Started
+2025-12-26 15:59:16,350 - utils - INFO - ============================================================
+2025-12-26 15:59:16,350 - utils - INFO - Company: Salesforce
+2025-12-26 15:59:16,351 - utils - INFO - Date Range: 2023-01-01 to 2023-12-31
+2025-12-26 15:59:16,351 - utils - INFO - Source: all
+2025-12-26 15:59:16,351 - utils - INFO - MODE: DEMO MODE (Sample Data)
+2025-12-26 15:59:16,351 - utils - INFO - ------------------------------------------------------------
+2025-12-26 15:59:16,353 - utils - INFO - Starting review scraping...
+2025-12-26 15:59:16,353 - utils - INFO - Running in DEMO MODE - generating sample reviews
+2025-12-26 15:59:16,354 - utils - INFO - Total reviews collected: 5
+2025-12-26 15:59:16,361 - utils - INFO - Reviews saved to: output/Salesforce_all_reviews_20251226_155916.json
+2025-12-26 15:59:16,363 - utils - INFO - 
+============================================================
+2025-12-26 15:59:16,363 - utils - INFO - SCRAPING SUMMARY
+2025-12-26 15:59:16,364 - utils - INFO - ============================================================
+2025-12-26 15:59:16,364 - utils - INFO - Company: Salesforce
+2025-12-26 15:59:16,364 - utils - INFO - Date Range: 2023-01-01 to 2023-12-31
+2025-12-26 15:59:16,364 - utils - INFO - Source(s): all
+2025-12-26 15:59:16,365 - utils - INFO - Total Reviews: 5
+2025-12-26 15:59:16,365 - utils - INFO - Mode: Demo
+2025-12-26 15:59:16,365 - utils - INFO - Reviews by source:
+2025-12-26 15:59:16,366 - utils - INFO -   G2: 2
+2025-12-26 15:59:16,366 - utils - INFO -   Capterra: 2
+2025-12-26 15:59:16,367 - utils - INFO -   Software Advice: 1
+2025-12-26 15:59:16,367 - utils - INFO - Output file: output/Salesforce_all_reviews_20251226_155916.json
+2025-12-26 15:59:16,367 - utils - INFO - ============================================================
+2025-12-26 15:59:26,579 - utils - INFO - ============================================================
+2025-12-26 15:59:26,580 - utils - INFO - Review Scraper Started
+2025-12-26 15:59:26,580 - utils - INFO - ============================================================
+2025-12-26 15:59:26,580 - utils - INFO - Company: HubSpot
+2025-12-26 15:59:26,581 - utils - INFO - Date Range: 2023-06-01 to 2023-12-31
+2025-12-26 15:59:26,581 - utils - INFO - Source: g2
+2025-12-26 15:59:26,582 - utils - INFO - MODE: DEMO MODE (Sample Data)
+2025-12-26 15:59:26,582 - utils - INFO - ------------------------------------------------------------
+2025-12-26 15:59:26,584 - utils - INFO - Starting review scraping...
+2025-12-26 15:59:26,584 - utils - INFO - Running in DEMO MODE - generating sample reviews
+2025-12-26 15:59:26,585 - utils - INFO - Total reviews collected: 2
+2025-12-26 15:59:26,586 - utils - INFO - Reviews saved to: output/HubSpot_g2_reviews_20251226_155926.json
+2025-12-26 15:59:26,587 - utils - INFO - 
+============================================================
+2025-12-26 15:59:26,587 - utils - INFO - SCRAPING SUMMARY
+2025-12-26 15:59:26,588 - utils - INFO - ============================================================
+2025-12-26 15:59:26,588 - utils - INFO - Company: HubSpot
+2025-12-26 15:59:26,589 - utils - INFO - Date Range: 2023-06-01 to 2023-12-31
+2025-12-26 15:59:26,590 - utils - INFO - Source(s): g2
+2025-12-26 15:59:26,591 - utils - INFO - Total Reviews: 2
+2025-12-26 15:59:26,591 - utils - INFO - Mode: Demo
+2025-12-26 15:59:26,592 - utils - INFO - Reviews by source:
+2025-12-26 15:59:26,592 - utils - INFO -   G2: 2
+2025-12-26 15:59:26,593 - utils - INFO - Output file: output/HubSpot_g2_reviews_20251226_155926.json
+2025-12-26 15:59:26,593 - utils - INFO - ============================================================
+2025-12-26 16:01:23,622 - utils - INFO - ============================================================
+2025-12-26 16:01:23,623 - utils - INFO - Review Scraper Started
+2025-12-26 16:01:23,623 - utils - INFO - ============================================================
+2025-12-26 16:01:23,624 - utils - INFO - Company: Salesforce
+2025-12-26 16:01:23,624 - utils - INFO - Date Range: 2023-01-01 to 2023-12-31
+2025-12-26 16:01:23,624 - utils - INFO - Source: all
+2025-12-26 16:01:23,625 - utils - INFO - MODE: DEMO MODE (Sample Data)
+2025-12-26 16:01:23,625 - utils - INFO - ------------------------------------------------------------
+2025-12-26 16:01:23,626 - utils - INFO - Starting review scraping...
+2025-12-26 16:01:23,627 - utils - INFO - Running in DEMO MODE - generating sample reviews
+2025-12-26 16:01:23,628 - utils - INFO - Total reviews collected: 5
+2025-12-26 16:01:23,629 - utils - INFO - Reviews saved to: output/Salesforce_all_reviews_20251226_160123.json
+2025-12-26 16:01:23,629 - utils - INFO - 
+============================================================
+2025-12-26 16:01:23,631 - utils - INFO - SCRAPING SUMMARY
+2025-12-26 16:01:23,631 - utils - INFO - ============================================================
+2025-12-26 16:01:23,632 - utils - INFO - Company: Salesforce
+2025-12-26 16:01:23,632 - utils - INFO - Date Range: 2023-01-01 to 2023-12-31
+2025-12-26 16:01:23,632 - utils - INFO - Source(s): all
+2025-12-26 16:01:23,633 - utils - INFO - Total Reviews: 5
+2025-12-26 16:01:23,633 - utils - INFO - Mode: Demo
+2025-12-26 16:01:23,633 - utils - INFO - Reviews by source:
+2025-12-26 16:01:23,633 - utils - INFO -   G2: 2
+2025-12-26 16:01:23,634 - utils - INFO -   Capterra: 2
+2025-12-26 16:01:23,634 - utils - INFO -   Software Advice: 1
+2025-12-26 16:01:23,634 - utils - INFO - Output file: output/Salesforce_all_reviews_20251226_160123.json
+2025-12-26 16:01:23,634 - utils - INFO - ============================================================
+2025-12-26 16:06:26,142 - utils - INFO - ============================================================
+2025-12-26 16:06:26,143 - utils - INFO - Review Scraper Started
+2025-12-26 16:06:26,144 - utils - INFO - ============================================================
+2025-12-26 16:06:26,144 - utils - INFO - Company: HubSpot
+2025-12-26 16:06:26,144 - utils - INFO - Date Range: 2023-06-01 to 2023-12-31
+2025-12-26 16:06:26,145 - utils - INFO - Source: g2
+2025-12-26 16:06:26,145 - utils - INFO - MODE: DEMO MODE (Sample Data)
+2025-12-26 16:06:26,146 - utils - INFO - ------------------------------------------------------------
+2025-12-26 16:06:26,148 - utils - INFO - Starting review scraping...
+2025-12-26 16:06:26,148 - utils - INFO - Running in DEMO MODE - generating sample reviews
+2025-12-26 16:06:26,151 - utils - INFO - Total reviews collected: 2
+2025-12-26 16:06:26,153 - utils - INFO - Reviews saved to: output/HubSpot_g2_reviews_20251226_160626.json
+2025-12-26 16:06:26,154 - utils - INFO - 
+============================================================
+2025-12-26 16:06:26,155 - utils - INFO - SCRAPING SUMMARY
+2025-12-26 16:06:26,156 - utils - INFO - ============================================================
+2025-12-26 16:06:26,156 - utils - INFO - Company: HubSpot
+2025-12-26 16:06:26,157 - utils - INFO - Date Range: 2023-06-01 to 2023-12-31
+2025-12-26 16:06:26,157 - utils - INFO - Source(s): g2
+2025-12-26 16:06:26,158 - utils - INFO - Total Reviews: 2
+2025-12-26 16:06:26,158 - utils - INFO - Mode: Demo
+2025-12-26 16:06:26,158 - utils - INFO - Reviews by source:
+2025-12-26 16:06:26,159 - utils - INFO -   G2: 2
+2025-12-26 16:06:26,159 - utils - INFO - Output file: output/HubSpot_g2_reviews_20251226_160626.json
+2025-12-26 16:06:26,160 - utils - INFO - ============================================================

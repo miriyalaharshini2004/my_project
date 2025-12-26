@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Excellent Salesforce Platform",
+    "description": "Salesforce has transformed our business operations completely. The features are outstanding and the integration capabilities are seamless. Customer support is very responsive and helpful.",
+    "date": "2023-08-15",
+    "reviewer_name": "John Smith",
+    "rating": 5,
+    "helpful_votes": "24",
+    "source": "G2"
+  },
+  {
+    "title": "Powerful but Complex Salesforce",
+    "description": "Great features from Salesforce but requires significant training. The learning curve is steep but worth it once you get the hang of it. Customization options are extensive.",
+    "date": "2023-09-28",
+    "reviewer_name": "Sarah Johnson",
+    "rating": 4,
+    "helpful_votes": "18",
+    "source": "Capterra"
+  },
+  {
+    "title": "Best Investment for Our Team - Salesforce",
+    "description": "Salesforce's platform has streamlined our workflow significantly. The pricing is reasonable and the ROI has been excellent. Highly recommend for growing businesses.",
+    "date": "2023-11-02",
+    "reviewer_name": "Mike Chen",
+    "rating": 5,
+    "helpful_votes": "31",
+    "source": "Software Advice"
+  },
+  {
+    "title": "Good Tool with Room for Improvement - Salesforce",
+    "description": "Solid platform from Salesforce with good core functionality. Some advanced features feel clunky and the reporting could be more robust. Overall satisfied with the value for money.",
+    "date": "2023-07-20",
+    "reviewer_name": "Lisa Rodriguez",
+    "rating": 3.5,
+    "helpful_votes": "12",
+    "source": "G2"
+  },
+  {
+    "title": "Outstanding Customer Service from Salesforce",
+    "description": "What sets Salesforce apart is their exceptional customer service. Whenever we've had issues, their support team has been quick to respond and resolve problems effectively.",
+    "date": "2023-10-10",
+    "reviewer_name": "David Wilson",
+    "rating": 4.5,
+    "helpful_votes": "27",
+    "source": "Capterra"
+  }
+]

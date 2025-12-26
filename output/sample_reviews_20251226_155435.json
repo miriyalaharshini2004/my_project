@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Excellent CRM Platform",
+    "description": "Salesforce has transformed our sales process completely. The automation features are outstanding and the integration capabilities are seamless. Customer support is responsive and helpful.",
+    "date": "2023-10-15",
+    "reviewer_name": "John Smith",
+    "rating": 5,
+    "helpful_votes": "24",
+    "source": "G2"
+  },
+  {
+    "title": "Powerful but Complex",
+    "description": "Great features but requires significant training. The learning curve is steep but worth it once you get the hang of it. Customization options are extensive.",
+    "date": "2023-09-28",
+    "reviewer_name": "Sarah Johnson",
+    "rating": 4,
+    "helpful_votes": "18",
+    "source": "Capterra"
+  },
+  {
+    "title": "Best Investment for Our Team",
+    "description": "HubSpot's all-in-one platform has streamlined our marketing, sales, and customer service. The free tier is generous and perfect for small businesses starting out.",
+    "date": "2023-11-02",
+    "reviewer_name": "Mike Chen",
+    "rating": 5,
+    "helpful_votes": "31",
+    "source": "Software Advice"
+  },
+  {
+    "title": "Good Tool, Room for Improvement",
+    "description": "Solid platform with good email marketing capabilities. Some features feel clunky and the reporting could be more robust. Overall satisfied with the value for money.",
+    "date": "2023-08-20",
+    "reviewer_name": "Lisa Rodriguez",
+    "rating": 3.5,
+    "helpful_votes": "12",
+    "source": "G2"
+  }
+]

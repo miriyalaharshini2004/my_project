@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Excellent Test Platform",
+    "description": "This is a test review with detailed content about the platform.",
+    "date": "2023-08-15",
+    "reviewer_name": "Test User",
+    "rating": 5,
+    "helpful_votes": "24",
+    "source": "G2"
+  },
+  {
+    "title": "Good Tool with Room for Improvement",
+    "description": "Solid platform with good core functionality. Some features could be improved.",
+    "date": "2023-07-20",
+    "reviewer_name": "Jane Doe",
+    "rating": 3.5,
+    "helpful_votes": "12",
+    "source": "Capterra"
+  }
+]
